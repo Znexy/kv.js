@@ -2,7 +2,7 @@ const Client = require("./classes/AoiClient");
 const CustomEvent = require("./classes/NewEvent.js");
 const LoadCommands = require("./classes/LoadCommands.js");
 const ClientShard = require("./classes/ClientShard.js");
-const AoiError = require("./classes/AoiError.js");
+const KvError = require("./classes/AoiError.js");
 const Util = require("./classes/Util.js");
 const Voice = require("./classes/Voice.js");
 
@@ -18,7 +18,7 @@ module.exports = {
    */
   ////Bot: Client,
   Bot: Client,
-  AoiClient: Client,
+  KvClient: Client,
   /**
    * *  Custom Events Class
    * @example new CustomEvent(client (eg: bot))
@@ -32,7 +32,7 @@ module.exports = {
   LoadCommands,
   ClientShard,
   Voice,
-  // * AoiError Class
+  // * KvError Class
   AoiError,
   // * Util Class
   Util,
